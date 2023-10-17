@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/icon.png">
+</head>
+<body>
+    <div class="container">
+        <div class="container-points">
+            <span class="message">points:</span>
+            <span id="points">0</span>
+        </div>
+        <div class="game-screen">
+            <canvas id="canvas">
+                <h3>Canvas not suported for your browser</h3>
+            </canvas>
+            <div class="screen">
+                <div class="container-img">
+                    <img src="img/screen.png" id="img-screen">
+                    <span id="points-ocorred">0</span>
+                    <span id="record-ocorred">0</span>
+                </div>
+                <button id="play">
+                    <ion-icon name="play-outline"></ion-icon>
+                    play
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="js/background.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/controls.js"></script>
+    <script src="js/snake.js"></script>
+    <script src="js/apple.js"></script>
+    <script src="js/colision.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
